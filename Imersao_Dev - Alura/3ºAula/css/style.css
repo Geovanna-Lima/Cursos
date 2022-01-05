@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 600px;
+  background-color: #c1e1dc;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+  
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.slider {
+  border-radius: 30px ;
+  background: #ffff;
+  width: 550px;
+  height: 550px;
+  margin-top: -680px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+  box-shadow: 0 0 1em gray;
+}
+
+.conteudo p {
+  color: #000000;
+  font-size: 25px;
+  padding-top: 35.25px;
+  font-weight: bold;
+}
+
+.conteudo h6 {
+  font-size: 25px;
+  margin-top: -15px;
+}
+  
+.vidente {
+  height: 710px;
+  width: 700px;
+}
+.imgFundo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  margin-left: 1px;
+  border: none;
+  background-color: white;
+  opacity: 0.8;
+  border-bottom: 1px solid black;
+  height:50px;
+  width: 300px;
+  margin-top: -10px;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: -300px;
+}
+
+.page-title {
+  color: #000000;
+  font-weight: bold;
+  margin: 0 0 5px;
+  font-size: 60px;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 65px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+.btnSubmit {
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 150px;
+  align-self: center;
+  background-color:black;
+  border:1px solid black;
+  transition: background-color .5s;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.botao {
+  display:flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.botao1 {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+}
+
+.sim {
+  margin-right: 30px;
+}
+
+.nao {
+  margin-left:30px;
+}
+
+.nao1 {
+  margin-top: -30px;
+}
+
+.btnSubmit:hover {
+  background-color: white;
+  color: black;
+}
+
+.saida {
+  margin-left: 25px;
+  border: none;
+  background-color: white;
+  opacity: 0.8;
+  border-bottom: 1px solid black;
+  height:50px;
+  width: 300px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-height: 300px) {
+  body {
+    min-height:500px;
+  }
+}

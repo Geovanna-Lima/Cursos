@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap%27');
+* {
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-image: linear-gradient(#1E90FF, #00BFFF, #87CEFA, #87CEEB);
+  background-color: #000000;
+  background-size: 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.containerConteudo {
+  display: flex;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+.slider {
+  border-radius: 30px ;
+  background: #fff;
+  width: 550px;
+  height: 500px;
+  margin-left: 235px;
+  margin-top: 120px;
+}
+
+.slider h6 {
+  color: gray;
+  font-size: 17px;
+}
+
+.entrada input {
+  margin-left: 1px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid #87CEFA;
+  height:50px;
+  width: 300px;
+  margin-top: 40px;
+}
+
+.saida input {
+  margin-left: 1px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid #87CEFA;
+  height:50px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+#fahrenheit {
+  text-align: center;
+  font-size: 20px;
+}
+
+#celcius {
+  text-align: center;
+  font-size: 20px;
+}
+
+#saidaCelcius {
+  text-align: center;
+  font-size: 20px;
+}
+
+#saidaFahrenheit {
+  text-align: center;
+  font-size: 20px;
+}
+
+.btnSubmit {
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 150px;
+  align-self: center;
+  border-width: 0px;
+  margin-top: 1rem;
+  background-color: #00bfff;
+  border:1px solid #00bfff;
+  transition: background-color .5s;
+}
+
+.btnSubmit:hover {
+  background-color: white;
+  color:#00bfff;
+}
+
+.btnSubmit1 {
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 50px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 150px;
+  align-self: center;
+  border-width: 0px;
+  margin-top: 1rem;
+  background-color: #00bfff;
+  border:1px solid #00bfff;
+  transition: background-color .5s;
+}
+.btnSubmit1:hover {
+  background-color: white;
+  color:#00bfff;
+}
+
+.saida {
+  margin-left: 1px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid #87CEFA;
+  height:50px;
+  width: 300px;
+  margin-left: 125px;
+  text-align: center;
+  font-size: 20px;
+}
+

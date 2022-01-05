@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+html {
+    backdrop-filter: brightness(80%);
+    height: all;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('https://pbs.twimg.com/media/Ex6mnW3WEAI0JA3?format=png&name=small');
+    background-color: #a5d6de;
+    background-size: 1000px;
+    background-position-y: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 20px 0;
+}
+
+.page-logo {
+    width: 150px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+.simbolo {
+    align-items: center;
+    width: 300px;
+}
+
+button {
+    width: 10rem;
+    max-width: 10rem;
+    padding: .8rem 1.5rem;
+    margin: 2rem auto;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+h2 {
+    color: white;
+}
+
+#carta-jogador, #carta-maquina {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 340px 280px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 9px;
+    border-radius: 33px;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 2rem;
+    color: white;
+    z-index: 2;
+    text-align: left;
+}
+
+.carta-status input {
+    margin: 20px 10px;
+}
+
+.carta-status p {
+    margin-bottom: 2rem;
+}
+
+.resultado-final {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weigth: bolder;
+    padding: 1rem;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.--spacing {
+    margin-left: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center
+}
+
+.carta-subtitle {
+    z-index: 2;
+    position: absolute;
+    top: 16px;
+    left: 37px;
+    font-weight: 800;
+    font-family: 'Lora', serif;
+}
+
+#cartas {
+    width: 100%;
+    display: flex;
+}
+
+#placar, #quantidade-cartas {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.carta-texto{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    color: white;
+}
+
+.duasCartas {
+    margin: 0 10px 0 10px;
+    display: flex;
+}
+
+#btnSortear, #btnJogar, #btnProximaRodada {
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    align-self: center;
+    background-color:#c379d6;
+    border:1px solid #c379d6;
+    transition: background-color .5s;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#btnSortear:hover {
+    background-color: white; 
+    color: #c379d6;
+    border: 1px solid #bf85ce;
+}
+
+#btnJogar:hover {
+    background-color: white; 
+    color: #c379d6;
+    border: 1px solid #bf85ce;
+}
+
+#btnProximaRodada:hover {
+    background-color: white; 
+    color: #c379d6;
+    border: 1px solid #bf85ce;
+}
+
+.botoes {
+    display: inline-grid;
+    margin-top: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+}

@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>
+        Imersão Dev - Aula 09
+    </title>
+</head>
+<link rel="stylesheet" href="../css/style.css">
+<body>
+    <div class="container">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo" alt="">
+        <div>
+            <h1 class="page-title">Super Trunfo</h1>
+            <img src="https://freepikpsd.com/wp-content/uploads/2019/10/princesas-logo-png-4-Transparent-Images.png" class="simbolo">
+        </div>
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div id="placar">
+
+            </div>
+            <div id="quantidade-cartas">
+
+            </div>
+            <div class="wrapper">
+                <div class="duasCartas">
+                    <div id="cartas">
+                        <div class="cartaUm">
+                            <h2>A sua carta é:</h2>
+                            <div id="carta-jogador" class="carta">
+
+                            </div>
+                        </div>
+                        <div class="botoes">
+                            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+                            <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Próxima rodada</button>
+                        </div>
+                        <div class="cartaDois">
+                            <h2>A carta da máquina é:</h2>
+                            <div id="carta-maquina" class="carta">
+
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div id="resultado">
+
+            </div>   
+        </form>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script script src="../js/app.js"></script>
+</body>
+</html>

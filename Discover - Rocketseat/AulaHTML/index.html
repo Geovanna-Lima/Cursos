@@ -1,0 +1,157 @@
+<!-- 
+    Anatomina das tags
+
+    - Abertura de tag
+    - Fechamneto de tag
+    - Conteúdo
+    - Elemento
+-->
+<h1>Teste</h1>
+
+<!-- Elemento vazio -->
+<img src="" alt="">
+
+<!-- 
+    Atributos HTML 
+
+    - Informações extras
+    - Configurações
+-->
+<img src="imagem.png" alt="texto">
+
+<!-- 
+    Atributos Booleanos
+
+    - Não precisam de conteúdo
+-->
+<input type="text">
+
+<!-- 
+    Aspas
+
+    - Omissão
+    - Simples
+    - Duplas -> melhor 
+ -->
+<a href=""></a>
+
+<!-- 
+    Atributos Globais mais utilizados
+
+    - class -> usado no estilo e javaScript
+    - contenteditable -> deixa editar o conteúdo
+    - data-* -> data-qlr-nome, usado no estilo e javaScript
+    - hidden -> esconde o conteúdo
+    - id -> identificador
+    - style -> estilo
+    - tabindex -> sequencia de tab quando usuario está usando
+    - title -> definir texto
+-->
+
+<div class="carrinho" contenteditable="true">
+    <!-- elementos aqui dentro -->
+    <h3>abuble</h3>
+</div>
+
+<div class="carrinho" data-id="">
+    <!-- elementos aqui dentro -->
+    <h3>abuble</h3>
+</div>
+
+<div class="carrinho" hidden>
+    <!-- elementos aqui dentro -->
+    <h3>abuble</h3>
+</div>
+
+<div class="carrinho" id="nomeUnico">
+    <!-- elementos aqui dentro -->
+    <h3>abuble</h3>
+</div>
+
+<div class="carrinho" tabindex="3">
+    <!-- elementos aqui dentro -->
+    <h3>tab3</h3>
+</div>
+
+<div class="carrinho" tabindex="1">
+    <!-- elementos aqui dentro -->
+    <h3>tab1</h3>
+</div>
+
+<div class="carrinho" tabindex="2">
+    <!-- elementos aqui dentro -->
+    <h3>tab2</h3>
+</div>
+
+<div title="Teste Título">
+    <!-- elementos aqui dentro -->
+    <h3>Título</h3>
+</div>
+
+<!-- 
+    Aninhamento de tags
+
+    - Fluxo -> página é exibida de acordo com o q foi escrito, ordem
+    - Hieraquia -> uma tag dentro da outra = tag pai e tag filha
+    - Posicionamento dos elementos -> algumas tags quebram a linha, outras são elementos em linha
+ -->
+
+<div>
+    <p>
+        Vou <em>escrever</em> algo!
+    </p>
+</div>
+
+<p>
+    Outro parágrafo.
+</p>
+
+<!-- 
+    Vamos praticar
+
+    Escreva 2 parágrafos, dando ênfase 
+    e importância para algumas palavras, 
+    e adicione um link de saiba mais.
+
+    - use a tag em para ênfase
+    - use a tag strong para importância
+    - o link pode levar para o google
+ -->
+<div class="pratica">
+
+    <h1>Vamos Praticar!</h1>
+    <p>
+        <strong>Lorem Ipsum</strong> Ipsum is simply dummy text of
+        the printing and typesetting industry.
+        Lorem Ipsum has been the <em>industry's</em> standard
+        dummy text ever since the 1500s, when an
+        unknown printer took a galley of type and
+        <em>scrambled</em> it to make a type specimen book.
+    </p>
+
+    <p>
+        <strong>Lorem Ipsum</strong> Ipsum is simply dummy text of
+        the printing and typesetting industry.
+        Lorem Ipsum has been the <em>industry's</em> standard
+        dummy text ever since the 1500s, when an
+        unknown printer took a galley of type and
+        <em>scrambled</em> it to make a type specimen book.
+    </p>
+    <a href="https://www.google.com.br">Saiba mais</a>
+</div>
+
+<!-- 
+    Conteúdo do texto e caracteres reservados.
+ -->
+<p>
+    &nbsp;
+    <!-- tabulação -->
+    &lt;
+    testando
+    &gt;
+    &amp;
+    <br>
+    &quot; os espaços &quot;
+    <br>
+    &apos; e quebras &apos;
+</p>

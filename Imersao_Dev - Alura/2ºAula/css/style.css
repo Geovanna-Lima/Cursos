@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600&display=swap');
+body {
+  font-family: 'Rajdhani', sans-serif;
+  min-height: 854px;
+  background-image: url('https://images.vexels.com/media/users/3/118634/raw/58c7990e254044633565be72a10feb2f-ilustracao-pokeball.jpg');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.logo {
+  margin-top: -20px;
+}
+
+.page-title {
+  color: #f8c20f;
+  font-size: 80px;
+  margin-top: -20px;
+  -webkit-text-stroke-width: 3.5px; /* largura da borda */
+  -webkit-text-stroke-color: #36439a; /* cor da borda */
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.pokemon {
+  display:flex;
+  margin-right: 100px;
+}
+  
+.primeiroPokemon {
+width: 300px;
+height: 260px;
+margin-top: 20px;
+}
+
+.segundoPokemon {
+   width: 280px;
+   height: 270px;
+   margin-top: 20px;
+ }
+
+.terceiroPokemon {
+   width: 300px;
+   height: 290px;
+   margin-top: 20px;
+ }
+
+.quartoPokemon {
+   width: 350px;
+   height: 320px;
+ }
+
+.slider {
+  border-radius: 30px ;
+  background: #F5F5F5;
+  width: 450px;
+  height: 600px;
+  margin-left: 80px;
+  margin-top: -25px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.pikachu h3 {
+  margin-top: 47px;
+}
+
+.charmander h3 {
+  margin-top: 38px;
+}
+
+.bulbasaur h3 {
+  margin-top: 10px;
+}
+
+input {
+  margin-left: 1px;
+  border: none;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #36439a;
+  height:50px;
+  width: 300px;
+  margin-top: -10px;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.btnSubmit {
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 150px;
+  align-self: center;
+  border-width: 0px;
+  margin-top: 5px;
+  background-color:#36439a;
+  border:1px solid #36439a;
+  transition: background-color .5s;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.btnSubmit:hover {
+  background-color: white;
+  color:#3340a2;
+}
+
+.saida {
+  margin-left: 25px;
+  border: none;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #3340a2;
+  height:50px;
+  width: 300px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
